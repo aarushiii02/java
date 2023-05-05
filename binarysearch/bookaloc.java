@@ -16,7 +16,7 @@ public class bookaloc {
                 if(studentcount>m || arr[i]>mid){
                     return false;
                 }
-                pagesum+=arr[i];
+                pagesum=arr[i];
             }
         }
         return true;
